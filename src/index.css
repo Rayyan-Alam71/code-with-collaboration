@@ -1,0 +1,149 @@
+body{
+  margin: 0;
+  padding: 0;
+  /* font-family; */
+  background-color:#385170;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+  font-size: 1.3rem;
+  color: #fff;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer{
+  position: fixed;
+  bottom: 10px;
+  width: 100vw;
+  /* align-items: center;
+  t */
+  /* left: 50%; */
+  text-align: center;
+}
+.card{
+  padding: 25px 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #01133f;
+  border: 1px solid #01133f;
+  border-radius: 10px;
+}
+.card h4{
+  margin-left: 8px;
+}
+.logo-img{
+  width: 80%;
+}
+.input-group{
+  display: flex;
+  flex-direction: column;
+}
+.input-group input{
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  outline: none;
+}
+.btn{
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 12px;
+}
+
+.joinBtn, .leaveBtn{
+  /* font-size: 1.2rem; */
+  /* font-weight: bold;  NO NEED TO SPECIFY*/
+  background-color: #a2c11c;
+  width:100px;
+  margin-left: auto;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.joinBtn:hover, .leaveBtn:hover{
+  background-color: #62760b;
+}
+.footnote{
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom:10px;
+}
+.newRoom-btn, .author-link{
+  text-decoration: none;
+  color: #a2c11c;
+  border-bottom: 1px solid #a2c11c;
+  transition:all 0.3s ease-in-out;
+}
+.newRoom-btn:hover, .author-link:hover{
+  color: #62760b;
+}
+
+.mainWrap{
+  display: grid;  
+  height: 100vh;
+  grid-template-columns: 245px 1fr;
+}
+.aside{
+  color: #ffffffdf;
+  font-size: 1.1rem;
+  padding: 10px;
+  background-color:#01133f;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.aside-inner{
+  flex: 1;
+}
+.logo{
+  border-bottom: 2px solid black;
+}
+.logoImg{
+  width: 100%;
+}
+.clientList{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+.client{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 8px;
+}
+
+.leaveBtn{
+  width: 100%;
+}
+.copyBtn{
+  transition: all 0.3s ease-in-out;
+}
+.copyBtn:hover{
+  background-color:#d9d1d1c5;
+}
+.editor{
+  height: 100vh;
+}
+.cm-editor{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  height: 100vh;
+}
+.ͼ1 .cm-scroller{
+  line-height: 1.6;
+  font-family:monospace;
+}
+.ͼ1 .cm-content{
+  font-size: 1.2rem;
+  padding: 20px;
+  height: calc(100% - 20px);
+}
